@@ -529,7 +529,6 @@ nav.scrolled {
 /* section start */
 .box-container-1,.box-container-2,.box-container-3,.box-container-4 {
     width: 80%;
-    height: 50vh;
     position: relative;
 }
 
@@ -555,66 +554,7 @@ nav.scrolled {
     transition: background-color 0.3s ease;
     margin-top: 20px;
     position: relative;
-    margin-left: 25VH;
-}
-@media (max-width: 768px) {
-    .container-10{
-        right: 10vh;
-        position: relative;
-        display: block;
-        overflow:-moz-hidden-unscrollable;
-    }
-    .box-container-1,.box-container-2,.box-container-3,.box-container-4{
-        height: 33vh;
-        width: 73vw;
-        position: relative;
-        display: block;
-    }
-    .box-container-1{
-        left: 5vh;
-    }
-    .box-container-2{
-        right: 32.33vh;
-        top:35.33vh;
-        position: relative;
-    }
-    .box-container-3{
-        top:36.33vh;
-        left: 5.5vh;
-    }
-    .box-container-4{
-        right: 31.44vh;
-        top:72.33vh;
-        position: relative;
-    }
-    .image-5,.image-1,.image-2,.image-3,.image-4{
-        height: 6vh;
-        width: 10vw;
-    }
-    h2,p{
-        font-size: 1rem;
-        overflow: hidden;
-    }
-    #text-10{
-        bottom: 20vh;
-        position: relative;
-    }
-    #text-11{
-        bottom: 20vh;
-        position: relative;
-    }
-    #text-12{
-        bottom: 20vh;
-        position: relative;
-    }
-    #text-13{
-        bottom: 20vh;
-        position: relative;
-    }
-    .explore-button-10,.explore-button-11,.explore-button-12,.explore-button-13{
-        right: 18vh;
-    }
-
+    margin-left: 10;
 }
 @media (max-width: 768px) {
     .line {
@@ -624,11 +564,11 @@ nav.scrolled {
     }
     .footer-1{
         position: relative;
-        top:59vh;
+        top:0vh;
     }
     .footer-2{
         position: relative;
-        top:60vh;
+        top:vh;
     }
     .btn{
         position: relative;
@@ -641,13 +581,12 @@ nav.scrolled {
     .btn-10{
         position: relative;
         display: block;
-        top:70vh;
+        top:vh;
         right: 18.33vh;
     }
-    .image-2{
+    .image-5{
         position: relative;
         display: block;
-        top:70vh;
         width: 100%;
         height: 40vh;
     }
@@ -664,3 +603,111 @@ nav.scrolled {
     position: relative;
 }
 /*over*/
+.box-container-1,
+.box-container-2,
+.box-container-3,
+.box-container-4,
+.box-container-5,
+.box-container-6 {
+    /* Your base styles here */
+    display: inline-block; /* Assuming these are inline elements */
+    padding: 10px;
+    transition: all 0.3s ease; /* Adding transition for all properties */
+}
+.box-container-1:hover,
+.box-container-2:hover,
+.box-container-3:hover,
+.box-container-4:hover,
+.box-container-5:hover,
+.box-container-6:hover {
+    color: green;
+    cursor: pointer;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: transparent;
+    background-color: rgb(4, 52, 83);
+    background: linear-gradient(8deg, rgba(8, 52, 83, 1) 0%, rgba(0, 230, 173, 1) 41%, rgba(41, 17, 45, 1) 100%);
+    -webkit-background-clip: text;
+    transform: scale(1.1);
+}
+    @media (max-width: 768px) {
+        .grid-container {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 20px; /* Adjust the gap between grid items as needed */
+    }
+
+    .box-container-1,
+    .box-container-2,
+    .box-container-3,
+    .box-container-4,
+    .text-center,
+    .box-container-5,
+    .box-container-6,
+    .box-btn
+    :hover {
+        position: relative;
+        display: block;
+        margin-right: 0px;
+        -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: transparent;
+    background-color: rgb(4,52,83);
+    background: linear-gradient(8deg,rgba(8, 52, 83, 1) 0%, rgba(0,230,173,1) 41%,  rgba(41,17,45,1) 100%);
+    -webkit-background-clip: text ;
+    }
+
+    .box-container-1 {
+        width: 290px;
+        height: 300px;
+        right: 80px;
+        position: relative;
+        display: block;
+    }
+
+    .box-container-2 {
+        width: 290px;
+        height: 300px;
+        top:0px;
+        right: 80px;
+        position: relative;
+        display: block;
+    }
+    .box-container-3 {
+        width: 290px;
+        height: 300px;
+        right: 80px;
+        position: relative;
+        display: block;
+    }
+    .box-container-4 {
+        width: 290px;
+        height: 300px;
+        display: block;
+        position: relative;
+        right: 80px;
+    }
+    .image-1,.image-2,.image-3,.image-4{
+        height: 70px;
+        width: 70px;
+        margin-left: 100px;
+    }
+    .text-1{
+        bottom: 180px;
+        position: relative;
+    }
+    .text-2{
+        bottom: 170px;
+        position: relative;
+    }
+    .text-3{
+        bottom: 160px;
+        position: relative;
+    }
+    .text-4{
+        bottom: 180px;
+        position: relative;
+    }
+    .image-2{
+        position: relative;
+        top:0vh;
+    }
+    }
