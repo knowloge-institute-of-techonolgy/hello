@@ -6,14 +6,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visecure - Secure Your Digital Life </title>
-    <link rel="stylesheet" href="home-style.css">
-    <link rel="icon" href="assets/visecure-logo.png" type="image/svg+xml">
+    <link rel="stylesheet" href="home.css">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.css">
+
 
 </head>
 <body>  
@@ -22,7 +22,7 @@
 
         <!-- <a href="#" class="logo-1">Visecure</a> -->
         <div class="Vi-logo">
-            <img src="assets/visecure-logo.png" alt="Visecure">
+            <img src="../Pictures/visecure-logo.png" alt="Visecure">
         </div>
        
 
@@ -35,17 +35,19 @@
         <nav class="navbar">
 
             <div class="NB">
-            <a href="home.html" class="active link" style="--i:0;">Home</a>
+            <a href="#home" class="active link" style="--i:0;">Home</a>
             <a href="#about_us" class="link" style="--i:1;">About Us</a>
-            <a href="Product.html" class="link" style="--i:1">Product</a>
-            <a href="services.html" class="link" style="--i:3;">Services</a>
-            <a href="Contact-us.html" class="link" style="--i:4;">Contact Us</a>
+            <a href="../Product-page/Product.html" class="link" style="--i:3;">Products</a>
+            <a href="../Services/services.html" class="link" style="--i:3;">Services</a>
+            <a href="#contact_us" class="link" style="--i:4;">Contact Us</a>
             </div>
             
             <div class="RES">
-                <a href="book.html" class="R_btn"  style="--i:5;">Book Now</a>
+                <a href="#contact_us" class="R_btn"  style="--i:5;">Book Now</a>
             </div>
-        </nav> 
+        </nav>
+
+        
     </div>
 
 <!-- Responsive_Nav_Bar_End -->
@@ -56,7 +58,7 @@
     <div class="N_content">
         <h1 class="anim"><span class="ex_title">Visecure!</span><br>Securing Your Digital Life</h1>
         <p class="anim">Empowering Digital Fortresses: Safeguarding Your Digital Existence Through Cybersecurity and Blockchain Innovations.</p>
-        <a href="book.html" class="N_btn anim">Join Now</a>
+        <a href="#contact_us" class="N_btn anim">Join Now</a>
     </div>
     <img src="https://i.ibb.co/qDwC9HQ/user.png" class="feature-img anim">
 </section>
@@ -74,22 +76,12 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="A_card">
-                    <img src="assets/visecure-logo.png" alt="img" class="img-fluid" data-aos="fade-left" data-aos-duration="500" data-aos-once="true" data-aos-easing style="margin-left: 10px; margin-top: 10px;">
+                    <img src="../Pictures/TEST IMG-1.jpg" alt="img" class="img-fluid" data-aos="fade-left" data-aos-duration="500" data-aos-once="true" data-aos-easing>
                     <div class="A_content" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
-                        <h3>Trust Visecure for Your Digital Safety</h3>
-                        <p>Visecure prioritizes empowering users with essential tools for safe digital navigation. Our expert team crafts state-of-the-art security solutions, blending advanced threat detection with user-friendly features. Trust us to safeguard your digital journey with confidence.</p>
-                        <button class="btn btn-primary" onclick="location.hre='../Product-page'">More</button>
+                        <h3>Visecure</h3>
+                        <p>Visecure is  a Managed Security ( MSS ) company providing an All-in-One cybersecurity solution and services for small to medium-sized businessess.Our platform delivers superior,end-to-end protection, safeguarding every aspect of your business and eliminating threats before they arise</p>
+                        <button class="btn btn-primary">More</button>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="A_card  A_card-2">
-                    <div class="A_content" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
-                        <h3>Empowering Digital Guardians</h3>
-                        <p>Forge ahead with confidence. Our advanced security solutions guarantee seamless protection, empowering you to navigate the digital realm fearlessly. Your safety, our priority.</p>
-                        <button class="btn btn-primary" onclick="location.href='../Product-page'">More</button>
-                    </div>
-                    <img src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041848.jpg?t=st=1709516216~exp=1709519816~hmac=e68b072f791b551988400fd62bf04ea8899ec254cfce3ac82e45910ed357338e&w=740" alt="img" class="img-fluid" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
                 </div>
             </div>
         </div>
@@ -99,65 +91,74 @@
 
 
 <!-- SERVICES -->
-<section id="services" class="S_container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; text-align: center;">
+<section id="services" class="S_container">
     <div class="service-wrapper">
         <div class="service">
             <div class="A_title">
-                <h4>Products</h4>
+                <h4>Services <span>&</span> Products</h4>
             </div>
             <div class="S_cards">
-                <div class="S_card" onclick="location.href='Poduct-description/Visecure Essentials.html'" style="padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                <div class="S_card">
+
+                    <p>All in one cybersecurity Solution(Modular Security)</p>
+                </div>
+
+                <div class="S_card">
+                    <p>Managed Security Services (MSS)</p>
+                </div>
+
+                <div class="S_card">
+                    <p>Vulnerability Assessment & Pen Testing (VAPT)</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="service">
+            <div class="A_title">
+                <h4>Solutions <span>&</span> Modules</h4>
+            </div>
+            <div class="S_cards">
+                <div class="S_card">
                     <i class="fas fa-cloud"></i>
-                    <h2 style="color: rgb(29, 177, 29);"><b>Visecure Essentials</b></h2>
-                    <p>Get essential coverage for endpoint, email, and cloud apps, automating resolution of most security incidents.</p>
+                    <h2>Cloud Security</h2>
+                    <p>Ensure your cloud environments are secure with our comprehensive Cloud Security solutions, protecting data and applications across all cloud platforms.</p>
                 </div>
 
-                <div class="S_card" onclick="location.href='Poduct-description/End-point.html'"  style="padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                    <i class="fas fa-network-wired"></i>
-                    <h2 style="color: rgb(29, 177, 29);">Endpoint Protection</h2>
-                    <p>Log all endpoint activity, analyze data anomalies, and automate resolution of 95% of the security incidents found.</p>
-                </div>
-
-                <div class="S_card" onclick="location.href='Poduct-description/Secure Access Service Edge (SASE).html'"  style="padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-                    <i class="fas fa-desktop"></i>
-                    <h2 style="color: rgb(29, 177, 29);">Secure Access Service Edge</h2>
-                    <p>Add military-grade protection to company devices wherever they are through an impenetrable cloud network.</p>
-                </div>
-
-                <div class="S_card" onclick="location.href='Poduct-description/Email Protection.html'" style="padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: auto;">
+                <div class="S_card">
                     <i class="fas fa-envelope"></i>
-                    <h2 style="color: rgb(29, 177, 29);">Email Protection</h2>
-                    <p>Scan emails for threats and remediate them automatically, drastically cutting the time needed to manage email security.</p>
+                    <h2>Email Security</h2>
+                    <p>Protect your organization from email-based threats such as phishing, malware, and spam with our advanced Email Security solutions.</p>
+                </div>
+
+                <div class="S_card">
+                    <i class="fas fa-desktop"></i>
+                    <h2>Endpoint Security</h2>
+                    <p>Safeguard your endpoints, including desktops, laptops, and mobile devices, against cyber threats with our robust Endpoint Security services.</p>
+                </div>
+                <div class="S_card">
+                    <i class="fas fa-network-wired"></i>
+                    <h2>Network Security</h2>
+                    <p>Protect your network infrastructure from intrusions and attacks with our comprehensive Network and Wi-Fi Security solutions.</p>
+                </div>
+                <div class="S_card">
+                    <i class="fas fa-database"></i>
+                    <h2>Data Governance</h2>
+                    <p>Prevent unauthorized access and data breaches with our robust Data Loss Prevention solutions, ensuring your sensitive information remains secure.</p>
+                </div>
+                <div class="S_card">
+                    <i class="fas fa-user-secret"></i>
+                    <h2>Endpoint Detection & Response</h2>
+                    <p>Prepare your organization for potential cyber incidents with our detailed Incident Response Planning services, minimizing damage and recovery time.</p>
+                </div>
+
+                <div class="S_card">
+                    <i class="fas fa-bug"></i>
+                    <h2>Wifi Phishing</h2>
+                    <p>Identify, analyze, and remove malicious software from your systems with our comprehensive Malware Analysis and Removal services.</p>
                 </div>
             </div>
         </div>
     </div>
-</section>
-
-
-<section id="services" class="S_container">
-        <div class="A_title" style="text-align: center; margin-top: 20px; margin-left: 10px;">
-            <h4></span> Services</h4>
-        </div>
-        <div class="service-wrapper" onclick="location.href='services.html'" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px;">
-            <div class="S_card" style="padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
-                <i style="font-size: 48px; margin-bottom: 10px;" class="fas fa-user-shield"></i>
-                <h2 style="font-size: 24px; margin-bottom: 10px;">We Can Provide You Cyber Security</h2>
-                <p style="font-size: 16px;">Our IT experts are delivering a range of IT services to our customers and alleviating technology challenges regarding core IT infrastructure. We help you establish a reliable IT infrastructure.</p>
-            </div>
-    
-            <div class="S_card" style="padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
-                <i style="font-size: 48px; margin-bottom: 10px;" class="fas fa-exclamation-triangle"></i>
-                <h2 style="font-size: 24px; margin-bottom: 10px;">We Can Provide You Cyber Security</h2>
-                <p style="font-size: 16px;">Our IT experts are delivering a range of IT services to our customers and alleviating technology challenges regarding core IT infrastructure. We help you establish a reliable IT infrastructure.</p>
-            </div>
-    
-            <div class="S_card" style="padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: center;">
-                <i style="font-size: 48px; margin-bottom: 10px;" class="fas fa-robot"></i>
-                <h2 style="font-size: 24px; margin-bottom: 10px;">Automated Incident Response</h2>
-                <p style="font-size: 16px;">Automate your incident response processes to quickly and effectively address security incidents with our Automated Incident Response solutions.</p>
-            </div>
-        </div>
 </section>
 <!-- SERVICES_END -->
 
@@ -235,7 +236,7 @@
 
                     <div>
                         <span><ion-icon name="mail"></ion-icon></span>
-                        <a href="mailto:visecurepvt@gmail.com">visecurepvt@gmail.com</a>
+                        <a href="mailto:contact@visecure.in">contact@visecure.in</a>
                     </div>
 
                     <div>
